@@ -11,10 +11,10 @@ public class TreeMaps{
   public static void main(String[] args) 
   {
     TreeMap <String , Person> t=new TreeMap<>();
-    t.put("Sh", new Person("Shreyash", 2, 985031, "Developer"));
+    t.put("Sh", new Person("Sarversh", 2, 985031, "Developer"));
     t.put("A", new Person("Abhishek", 1, 985, "Software Engineer"));
     t.put("R", new Person("Ratan", 3, 9850, "Frontend Developer"));
-    t.put("Sa", new Person("Sarvesh", 0, 98503, "Backend Developer"));
+    t.put("Sa", new Person("Sreyash", 0, 98503, "Backend Developer"));
 
 
     for(String key : t.keySet())
