@@ -1,4 +1,10 @@
-public class HashMaps{
-// Preapare a Code that It Should add Person Class Objects
-  // Itearate HashMaps using For-Each
-}
+import java.util.Comparator;
+
+public class BasedOnDesg implements Comparator<Person>{
+
+  @Override
+  public int compare(Person o1, Person o2) {
+    return o1.getDesg().compareTo(o2.getDesg());
+  } 
+
+} 
