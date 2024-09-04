@@ -72,6 +72,11 @@ public class HashMaps {
       System.out.println(entry.getKey() + "values are :" + entry.getValue());
     }
 
+    Iterator<Map.Entry<Person, String>> it = person.entrySet().iterator();
+    while (it.hasNext()) {
+      System.out.println(it.next());
+    }
+
   }
 
 }
