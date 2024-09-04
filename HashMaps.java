@@ -9,15 +9,16 @@ public class HashMaps{
     
     HashMap<Person,String>hs=new HashMap<>();
     
-    hs.put(new Person(1,"marsh"), "hello");
-    hs.put(new Person(2,"mello"), "world");
-
+    hs.put(new Person(2,"vijay",220,"dev"),"hello");
+    hs.put(new Person(4,"mello",250,"dig"),"world");
 
     for (Map.Entry<Person,String> s : hs.entrySet()) {
       System.out.println(s.getKey()+" "+s.getValue());
     }
-
-
+   Iterator<Map.Entry<Person,String>>is=hs.entrySet().iterator();
+  while (is.hasNext()) {
+    System.out.println(is.next());
+  }
   
     
  }
