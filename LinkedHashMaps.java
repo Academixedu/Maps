@@ -10,9 +10,9 @@ public class LinkedHashMaps{
 
   public static void main(String[] args) {
     LinkedHashMap<Integer, String> L =new LinkedHashMap();
-    L.put(1, "Kalki");
-    L.put(2, "Salaar");
-    L.put(3, "Radhe Syam");
+    L.put(1, "Designer");
+    L.put(2, "Tester");
+    L.put(3, "Developer");
 
    Iterator<Map.Entry<Integer, String>> I = L.entrySet().iterator();
    while (I.hasNext()) {
