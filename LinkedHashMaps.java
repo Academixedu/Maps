@@ -11,11 +11,11 @@ public class HashMaps {
     ls.put(98, "oops");
     ls.put(76, "yup");
     ls.put(86, "yeah");
-    for (Map.Entry<Integer, String> entry : ls.entrySet()) {
-      System.out.println("the values " + entry.getValue());
-    }
-    for (Map.Entry<Integer, String> entry1 : ls.entrySet()) {
-      System.out.println("the key" + entry1.getKey());
+    Iterator<Map.Entry<Integer, String>> it = ls.entrySet().iterator();
+    while (it.hasNext()) {
+      Map.Entry<Integer, String> entry = it.next();
+
+      System.out.println(" " + entry.getKey() + "=" + entry.getValue());
     }
 
 
