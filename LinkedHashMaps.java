@@ -3,4 +3,9 @@ public class LinkedHashMaps{
   // Itearatre it using EntrySet
   // Print Only Values
   // Print Only Keys
+  public static void main(String[] args) {
+     LinkedHashMaps<>
+
+
+  }
 }
